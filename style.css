@@ -1,0 +1,48 @@
+body {
+    font-family: poppins;
+    margin: 0;
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+}
+
+#main-container {
+    height: 200px;
+    width: 500px;
+    background-color: brown;
+    display: grid;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+#request-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+}
+
+.options {
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: blueviolet;
+    color: white;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.options:hover {
+    background-color: rgb(100, 30, 165);
+}
+
+#top-container {
+    color: white;
+}
