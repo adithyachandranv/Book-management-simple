@@ -6,8 +6,8 @@ if (!$conn) {
     echo "<div id=main>";
     echo "<div id=success>";
     echo "Connection established";
-    echo "</div";
-    echo "</div";
+    echo "</div>";
+    echo "</div>";
 }
 
 $request = $_POST['request'];
